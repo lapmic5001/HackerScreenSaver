@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Press+Start+2P&display=swap"
+            rel="stylesheet" />
+        <style>
+            body {
+                color: lawngreen;
+                background-color: black;
+                text-align: center;
+                font-family: Oswald;
+            }
+            textarea {
+                color: lawngreen;
+                background-color: darkgray;
+                text-align: center;
+                font-family: Oswald;
+            }
+            button {
+                color: lawngreen;
+                background-color: darkgray;
+                text-align: center;
+                font-family: Oswald;
+            }
+        </style>
+        <meta charset="UTF-8" />
+        <title>Pay Here</title>
+    </head>
+    <body>
+        <h1>Pay For Your Screen Saver Here!</h1>
+        <textarea id="paybox">Put Your Payment Amount Here!</textarea>
+        <br />
+        <button id="button" onclick="submitPayment()">Submit Payment!</button>
+        <script>
+            function submitPayment() {
+                if (document.getElementById("paybox").value.includes = "3.99") {
+                    window.location.replace("https://lapmic5001.github.io/HackerScreenSaver/sources/build/4.html");
+                }
+                else {
+                    document.getElementById("button").style.backgroundColor = "red"
+                }
+            }
+        </script>
+    </body>
+</html>
